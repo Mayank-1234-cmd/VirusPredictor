@@ -1,7 +1,7 @@
 :: Virus Predictor 1.0
 @echo off
 color F0
-title Virus Predictor 1.0 by DarkCode
+title Virus Predictor 1.0 
 mode 475
 cls
 :nt1
