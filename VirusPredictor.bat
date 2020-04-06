@@ -6,6 +6,7 @@ mode 475
 cls
 :nt1
 cls
+echo COVID-19 is spreading. 
 set /p Initial_Population=Initial Population:
 set /p infectantsperday=People Infected Per day:
 set /p deathrec=Recover from death Rate:
