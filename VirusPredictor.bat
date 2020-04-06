@@ -7,6 +7,13 @@ cls
 :nt1
 cls
 echo COVID-19 is spreading.
+set /p tmpqwerty=Would you like to see COVID-19 info? [Y/N,caps supported only]:
+if %tmpqwerty%=Y goto l
+it %typeqwerty%=n goto nl
+:l
+type covidinfo.dll
+:nl
+
 set /p vsn=Virus Stimulation Name:
 set /p Initial_Population=Initial Population:
 set /p infectantsperday=People Infected Per day:
