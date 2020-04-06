@@ -6,7 +6,7 @@ mode 475
 cls
 :nt1
 cls
-echo COVID-19 is spreading. NOTE: This virus stimulator 
+echo COVID-19 is spreading.
 set /p vsn=Virus Stimulation Name:
 set /p Initial_Population=Initial Population:
 set /p infectantsperday=People Infected Per day:
